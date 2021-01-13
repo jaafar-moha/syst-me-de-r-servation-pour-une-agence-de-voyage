@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T15:10:21.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="8AZqig8W8I4nydrqZwt9" type="github"><diagram id="prWhnTShJXPtExp7idOY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-13T15:27:22.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-7oBXv4hRZWC6ED7zqx0" version="14.1.8" type="github">
+  <diagram id="prWhnTShJXPtExp7idOY" name="Page-1">
+    <mxGraphModel dx="925" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bafoIi28_IILmrrCpoWe-1" value="agent de voyage&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="445" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-4" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Agence de voyage&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="398.5" y="280" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Organise un voyage&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="395.5" y="450" width="236" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Réserver un chambre d&#39;hôtel&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Réserver un taxi&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="421" y="320" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Réserver un biller de train&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bafoIi28_IILmrrCpoWe-1" target="bafoIi28_IILmrrCpoWe-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="300" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.676;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bafoIi28_IILmrrCpoWe-5" target="bafoIi28_IILmrrCpoWe-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.575;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.552;exitY=-0.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bafoIi28_IILmrrCpoWe-5" target="bafoIi28_IILmrrCpoWe-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="440" as="sourcePoint" />
+            <mxPoint x="780" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bafoIi28_IILmrrCpoWe-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.932;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bafoIi28_IILmrrCpoWe-5" target="bafoIi28_IILmrrCpoWe-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="660" y="480" as="sourcePoint" />
+            <mxPoint x="820" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
